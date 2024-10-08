@@ -6,34 +6,43 @@
   <body>
     <h1>Math Test</h1>
     <form> <!-- Start of test -->
-      Name:<br>
-      <input type = "text"><br>
+        Name:<br>
+        <input type = "text"><br>
+        <fieldset>
+          <legend>MCQs</legend>
+          True or False? &pi; radians are equal to 180&deg;<br>
+          <input type = "radio" name = "Pie180" value = "false">
+          false<br>
+          <input type = "radio" name = "Pie180" value = "true">
+          true<br>
 
-      True or False? &pi; radians are equal to 180&deg;<br>
-      <input type = "radio" name = "Pie180" value = "false" checked>
-      false<br>
-      <input type = "radio" name = "Pie180" value = "true">
-      true<br>
+          Solve for X? 4x &times; (2 + 8) = 80<br>
+          <input type = "radio" name = "SolveX" value = "0">
+          0<br>
+          <input type = "radio" name = "SolveX" value = "10">
+          10<br>
+          <input type = "radio" name = "SolveX" value = "8">
+          8<br>
+          <input type = "radio" name = "SolveX" value = "2">
+          2<br>
 
-     Solve for X? 4x &times; (2 + 8) = 80<br>
-      <input type = "radio" name = "SolveX" value = "0" checked>
-      0<br>
-      <input type = "radio" name = "SolveX" value = "10">
-      10<br>
-      <input type = "radio" name = "SolveX" value = "8">
-      8<br>
-      <input type = "radio" name = "SolveX" value = "2">
-      2<br>
-
-      Select the Correct Answer. 2 + 2 = ?<br>
-      <input type = "radio" name = "Solve2+2" value = "0" checked>
-      0<br>
-      <input type = "radio" name = "Solve2+2" value = "5">
-      5<br>
-      <input type = "radio" name = "Solve2+2" value = "4">
-      4<br>
-      <input type = "radio" name = "Solve2+2" value = "10">
-      10<br>
+          Select the Correct Answer. 2 + 2 = ?<br>
+          <input type = "radio" name = "Solve2+2" value = "0">
+          0<br>
+          <input type = "radio" name = "Solve2+2" value = "5">
+          5<br>
+          <input type = "radio" name = "Solve2+2" value = "4">
+          4<br>
+          <input type = "radio" name = "Solve2+2" value = "10">
+          10<br>
+        </fieldset>
+        <fieldset>
+          <legend>Word Problem</legend>
+          Juan has 4 crates of apples. Each crate contains 10 apples.<br>
+          He gives away some apples and now has 25 apples left. How many apples did Juan give away?
+          <textarea rows = "3" cols = "50"></textarea>
+        </fieldset>
+      <button type = "submit">Submit</button>
     </form>
   </body>
 </html>
