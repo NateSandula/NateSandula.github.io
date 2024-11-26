@@ -1,8 +1,9 @@
 table, tr, td {
   border: 2px solid black;
+  background-color: #de8781;
 }
 table{
-  background-color: #de8781;
+  
 }
 td:nth-of-type(even){
   background-color: #ffcbc7;
