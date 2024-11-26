@@ -1,13 +1,15 @@
 table, tr, td {
   border: 2px solid black;
-  background-color: #de8781;
 }
 table{
-  
+  background-color: #575655;
 }
 td:nth-of-type(even){
-  background-color: #ffcbc7;
+  background-color: #ededed;
 }
 td:nth-of-type(odd){
-  background-color: #ffd7c7;
+  background-color: #bfbfbf;
+}
+th{
+  font-color: #ededed;
 }
