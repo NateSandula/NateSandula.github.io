@@ -3,9 +3,8 @@ h3{
   font-size: 32px;
 }
 h1{
-  display: inline-block;
-  vertical-align: middle;
   font-size: 48px;
+  margin-bottom: 0px;
 }
 p{
   margin-top: 10px;
