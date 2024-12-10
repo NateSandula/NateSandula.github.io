@@ -4,4 +4,8 @@ h3{
 }
 h1{
   vertical-align: middle;
+  font-size: 48px;
+}
+li{
+  margin-top: 10px;
 }
