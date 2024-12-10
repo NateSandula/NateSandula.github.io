@@ -3,6 +3,7 @@ h3{
   font-size: 32px;
 }
 h1{
+  display: inline-block;
   vertical-align: middle;
   font-size: 48px;
 }
