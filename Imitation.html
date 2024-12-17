@@ -9,22 +9,27 @@
         grid-template-rows: 1fr 1fr 1fr;
         row-gap: 10px;
       }
+      .container{
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
       .penguins{
         background-image: url(5.4 Images/penguins.jpg);
         background-repeat: no-repeat;
         height: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
       }
     </style>
   </head>
   <body>
     <section class = "grid-container">
-      <div class = "penguins"></div>
-      <div class = "penguins"></div>
-      <div class = "penguins"></div>
-      <div class = "penguins"></div>
+      <div class = "container">
+        <div class = "penguins"></div>
+        <div class = "penguins"></div>
+        <div class = "penguins"></div>
+        <div class = "penguins"></div>
+      </div>
     </section>
   </body>
 </html>
