@@ -2,8 +2,29 @@
 <html>
   <head>
     <title>Imitation Assignment</title>
+    <style>
+      .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 10px;
+      }
+      .penguins{
+        background-image: url(5.4 Images/penguins.jpg);
+        background-repeat: no-repeat;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+    </style>
   </head>
   <body>
-    
+    <section class = "grid-container">
+      <div class = "penguins"></div>
+      <div class = "penguins"></div>
+      <div class = "penguins"></div>
+      <div class = "penguins"></div>
+    </section>
   </body>
 </html>
