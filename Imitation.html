@@ -3,10 +3,16 @@
   <head>
     <title>Imitation Assignment</title>
     <style>
+      .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+      }
       div{
         height: 300px;
         width: 300px;
-        display: inline-block;
       }
       .penguins{
         background-image: url(images/5.3Images/penguins.jpg);
@@ -42,11 +48,13 @@
     </style>
   </head>
   <body>
+    <section class = "grid-container">
         <div class = "penguins"></div>
         <div class = "football"></div>
         <div class = "dinosaur"></div>
         <div class = "seagull"></div>
         <div class = "butterfly"></div>
         <div class = "theater"></div>
+    </section>
   </body>
 </html>
