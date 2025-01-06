@@ -15,6 +15,6 @@
   background-color: #303030;
 }
 .navbar a:hover{
-  background-color: #505050; /* Hover effect to change the background color */
+  background-color: #505050; 
   color: white;
 }
