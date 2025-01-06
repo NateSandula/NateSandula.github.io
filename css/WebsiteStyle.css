@@ -3,10 +3,10 @@
     background-color: #303030;
     margin-bottom: 0px;
     }
-.navbarlist{
+.navbar li{
   display: inline-block;
   }
-.navbarlist a{
+.navbar a{
   display: block;
   color: #ededed;
   font-size: 125%;
