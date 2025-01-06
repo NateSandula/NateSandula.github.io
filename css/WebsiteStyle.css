@@ -14,3 +14,7 @@
   padding: 10px 4px;
   background-color: #303030;
 }
+.navbar a:hover{
+  background-color: #505050; /* Hover effect to change the background color */
+  color: white;
+}
