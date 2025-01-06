@@ -25,6 +25,3 @@ section.grid-container {
     column-gap: 20px;
     row-gap: 20px;
 }
-p.centered-paragraph{
-    text-align: center;
-}
