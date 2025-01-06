@@ -1,1 +1,16 @@
-
+.navbar {
+    list-style-type: none;
+    background-color: #303030;
+    margin-bottom: 0px;
+    }
+.navbarlist{
+  display: inline-block;
+  }
+.navbarlist a{
+  display: block;
+  color: #ededed;
+  font-size: 125%;
+  text-align: center;
+  padding: 10px 4px;
+  background-color: #303030;
+}
