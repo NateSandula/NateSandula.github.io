@@ -5,10 +5,10 @@ body{
     list-style-type: none;
     background-color: #303030;
     margin-bottom: 0px;
-    }
+}
 .navbar li{
   display: inline-block;
-  }
+}
 .navbar a{
   display: block;
   color: #ededed;
@@ -58,5 +58,8 @@ img{
   margin: 10px;
   margin-bottom: 0px;
   border: 2px solid black;
+}
+.imgcaption{
+  transform: translate(10px, 0px);
 }
 
