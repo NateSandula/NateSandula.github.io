@@ -34,7 +34,7 @@ section.media-grid-container {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     column-gap: 10px;
     row-gap: 10px;
-    grid-auto-flow: column dense;
+    grid-auto-flow: dense;
 }
 caption{
     font-size: 20px;
