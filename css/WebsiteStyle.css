@@ -35,6 +35,9 @@ section.media-grid-container {
     gap: 10px;
     grid-auto-flow: columndense;
 }
+table{
+    border: 2px solid black;
+}
 caption{
     font-size: 45px;
     font-weight: bold;
@@ -45,7 +48,6 @@ thead, tfoot{
 }
 td, th{
     padding: 10px;
-    border: 2px solid black;
 }
 .betterText{
     font-size: 15px;
