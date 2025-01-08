@@ -41,6 +41,7 @@ table{
 .title{
     font-size: 45px;
     font-weight: bold;
+    margin-bottom: 5px;
 }
 thead, tfoot{
   background-color: #db675e;
