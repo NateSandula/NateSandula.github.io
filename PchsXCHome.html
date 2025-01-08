@@ -38,14 +38,14 @@
         <fieldset>
           <legend>Want to Donate?</legend>
           Name:<br>
-          <input type = "text"><br>
+          <input type = "text" name = "name"><br>
           How much do you want to donate?<br>
-          <input type = "text"><br>
+          <input type = "number" name = "donation" min = "0" step = "1"><br>
 
           Do you want to stay anonymous?<br>
-          <input type = "radio" name = "Yes" value = "0">
+          <input type = "radio" name = "anonymous" value = "0">
           Yes<br>
-          <input type = "radio" name = "No" value = "1">
+          <input type = "radio" name = "anonymous" value = "1">
           No<br>
         </fieldset>
         <button type = "submit">Submit</button>
