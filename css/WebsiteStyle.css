@@ -32,3 +32,13 @@ section.media-grid-container {
     column-gap: 20px;
     row-gap: 20px;
 }
+table{
+  font-family: san-serif;
+}
+thead, tfoot{
+  background-color: #db675e;
+  color: #f5f5f5;
+}
+td, th {
+  padding: 10px;
+}
