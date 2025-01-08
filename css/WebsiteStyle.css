@@ -32,12 +32,11 @@ section.media-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    column-gap: 10px;
-    row-gap: 10px;
-    grid-auto-flow: dense;
+    gap: 10px;
+    grid-auto-flow: columndense;
 }
 caption{
-    font-size: 20px;
+    font-size: 45px;
     font-weight: bold;
 }
 thead, tfoot{
@@ -53,6 +52,7 @@ td, th{
     font-weight: bold;
 }
 img{
+  padding: 10px;
   border: 2px solid black;
 }
 
