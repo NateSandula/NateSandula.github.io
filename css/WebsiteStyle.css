@@ -56,11 +56,15 @@ td, th{
 }
 img{
   margin: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 3px;
   border: 2px solid black;
 }
 .imgcaption{
-  margin-top: 5px;
+  margin-top: 0px;
   transform: translate(10px, 0px);
+}
+.subtitle{
+  font-size: 25px;
+  margin-top: 0px;
 }
 
