@@ -69,4 +69,7 @@ img{
   font-size: 25px;
   margin-top: 0px;
 }
+.border{
+  border: 4px solid black;
+}
 
